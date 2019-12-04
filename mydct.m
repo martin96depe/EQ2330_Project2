@@ -11,6 +11,7 @@ function mat = mydct(in_img, dct_mask)
             out(i:i+(M-1),j:j+(M-1)) = dct_mask.*in_img(i:i+(M-1),j:j+(M-1)).*dct_mask';
         end
     end
+    
     mat = out;
    
 end
