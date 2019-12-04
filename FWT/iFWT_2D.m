@@ -15,5 +15,5 @@ function reco_img = iFWT_2D(Hi_Hi,Hi_Lo,Lo_Hi,Lo_Lo, filter)
     end
     
     %normalize image
-    %reco_img = mat2gray(reco_img);
+    reco_img = mat2gray(reco_img);
 end

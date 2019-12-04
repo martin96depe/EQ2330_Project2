@@ -6,7 +6,7 @@ function [aprox_coef,detail_coef] = analysis_f(f, filter)
 
     
     signal_length = length(f);
-    f = wextend('1','ppd',f,length(f));
+    f = wextend('1D','per',f,length(f));
 
     %analysis filter
     temp1 = conv(f,Hi_D);
